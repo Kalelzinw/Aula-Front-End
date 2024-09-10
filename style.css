@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    border: solid 2px black;
+    width: 15%;
+    border-radius: 15px;
+}
+
+.inputs {
+    padding: 10px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 20%;
+    
+}
+
+table , th, td {
+    
+    align-content: center;
+    border-collapse: collapse;
+    border: solid 1px black;
+    padding: 5px;
+}
